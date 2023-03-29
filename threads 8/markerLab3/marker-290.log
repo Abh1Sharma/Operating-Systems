@@ -1,0 +1,369 @@
+Failed to add the host to the list of known hosts (/homes/s/shar1784/.ssh/known_hosts.d/ug250.eecg.utoronto.ca).
+\357\273\277: Command not found.
+cc -MM *.c > .depend
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_thread.o test_thread.c
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o thread.o thread.c
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o interrupt.o interrupt.c
+cc -g -Wall -Werror -D_GNU_SOURCE    show_ucontext.c test_thread.o thread.o interrupt.o   -o show_ucontext
+cc -g -Wall -Werror -D_GNU_SOURCE    show_handler.c test_thread.o thread.o interrupt.o   -o show_handler
+cc -g -Wall -Werror -D_GNU_SOURCE    test_basic.c test_thread.o thread.o interrupt.o   -o test_basic
+cc -g -Wall -Werror -D_GNU_SOURCE    test_preemptive.c test_thread.o thread.o interrupt.o   -o test_preemptive
+cc -g -Wall -Werror -D_GNU_SOURCE    test_wakeup.c test_thread.o thread.o interrupt.o   -o test_wakeup
+cc -g -Wall -Werror -D_GNU_SOURCE    test_wakeup_all.c test_thread.o thread.o interrupt.o   -o test_wakeup_all
+cc -g -Wall -Werror -D_GNU_SOURCE    test_wait.c test_thread.o thread.o interrupt.o   -o test_wait
+cc -g -Wall -Werror -D_GNU_SOURCE    test_wait_kill.c test_thread.o thread.o interrupt.o   -o test_wait_kill
+cc -g -Wall -Werror -D_GNU_SOURCE    test_wait_exited.c test_thread.o thread.o interrupt.o   -o test_wait_exited
+cc -g -Wall -Werror -D_GNU_SOURCE    test_wait_parent.c test_thread.o thread.o interrupt.o   -o test_wait_parent
+cc -g -Wall -Werror -D_GNU_SOURCE    test_lock.c test_thread.o thread.o interrupt.o   -o test_lock
+cc -g -Wall -Werror -D_GNU_SOURCE    test_cv_signal.c test_thread.o thread.o interrupt.o   -o test_cv_signal
+cc -g -Wall -Werror -D_GNU_SOURCE    test_cv_broadcast.c test_thread.o thread.o interrupt.o   -o test_cv_broadcast
+Running: /cad2/ece344f/tester/scripts/lab3-01-preemptive.py 
+preemptive test
+running 3 times
+INFO: test program claims it will take 60 seconds
+DONE: saw 0 interrupts disabled, 0 bad returns, 0 unexpected potato moves
+INFO: test program claims it will take 60 seconds
+DONE: saw 0 interrupts disabled, 0 bad returns, 0 unexpected potato moves
+INFO: test program claims it will take 60 seconds
+DONE: saw 0 interrupts disabled, 0 bad returns, 0 unexpected potato moves
+Mark for preemptive test is 20 out of 20
+PASS
+
+Running: /cad2/ece344f/tester/scripts/lab3-02-wakeup.py 
+wakeup test
+running 3 times
+Mark for wakeup test is 10 out of 10
+PASS
+
+Running: /cad2/ece344f/tester/scripts/lab3-03-wakeupall.py 
+wakeup all test
+running 3 times
+Mark for wakeup all test is 6 out of 6
+PASS
+
+Running: /cad2/ece344f/tester/scripts/lab3-04-wait.py 
+wait test
+running test_wait...
+ERROR: EOF: not found: ^initial thread returns from waiting on self
+
+ERROR: EOF: not found: ^initial thread returns from waiting on THREAD_SELF
+
+ERROR: EOF: not found: ^initial thread returns from waiting on 110
+
+ERROR: EOF: not found: ^id = 1
+
+ERROR: EOF: not found: ^id = 2
+
+ERROR: EOF: not found: ^id = 3
+
+ERROR: EOF: not found: ^id = 4
+
+ERROR: EOF: not found: ^id = 5
+
+ERROR: EOF: not found: ^id = 6
+
+ERROR: EOF: not found: ^id = 7
+
+ERROR: EOF: not found: ^id = 8
+
+ERROR: EOF: not found: ^id = 9
+
+ERROR: EOF: not found: ^id = 10
+
+ERROR: EOF: not found: ^id = 11
+
+ERROR: EOF: not found: ^id = 12
+
+ERROR: EOF: not found: ^id = 13
+
+ERROR: EOF: not found: ^id = 14
+
+ERROR: EOF: not found: ^id = 15
+
+ERROR: EOF: not found: ^id = 16
+
+ERROR: EOF: not found: ^id = 17
+
+ERROR: EOF: not found: ^id = 18
+
+ERROR: EOF: not found: ^id = 19
+
+ERROR: EOF: not found: ^id = 20
+
+ERROR: EOF: not found: ^id = 21
+
+ERROR: EOF: not found: ^id = 22
+
+ERROR: EOF: not found: ^id = 23
+
+ERROR: EOF: not found: ^id = 24
+
+ERROR: EOF: not found: ^id = 25
+
+ERROR: EOF: not found: ^id = 26
+
+ERROR: EOF: not found: ^id = 27
+
+ERROR: EOF: not found: ^id = 28
+
+ERROR: EOF: not found: ^id = 29
+
+ERROR: EOF: not found: ^id = 30
+
+ERROR: EOF: not found: ^id = 31
+
+ERROR: EOF: not found: ^id = 32
+
+ERROR: EOF: not found: ^id = 33
+
+ERROR: EOF: not found: ^id = 34
+
+ERROR: EOF: not found: ^id = 35
+
+ERROR: EOF: not found: ^id = 36
+
+ERROR: EOF: not found: ^id = 37
+
+ERROR: EOF: not found: ^id = 38
+
+ERROR: EOF: not found: ^id = 39
+
+ERROR: EOF: not found: ^id = 40
+
+ERROR: EOF: not found: ^id = 41
+
+ERROR: EOF: not found: ^id = 42
+
+ERROR: EOF: not found: ^id = 43
+
+ERROR: EOF: not found: ^id = 44
+
+ERROR: EOF: not found: ^id = 45
+
+ERROR: EOF: not found: ^id = 46
+
+ERROR: EOF: not found: ^id = 47
+
+ERROR: EOF: not found: ^id = 48
+
+ERROR: EOF: not found: ^id = 49
+
+ERROR: EOF: not found: ^id = 50
+
+ERROR: EOF: not found: ^id = 51
+
+ERROR: EOF: not found: ^id = 52
+
+ERROR: EOF: not found: ^id = 53
+
+ERROR: EOF: not found: ^id = 54
+
+ERROR: EOF: not found: ^id = 55
+
+ERROR: EOF: not found: ^id = 56
+
+ERROR: EOF: not found: ^id = 57
+
+ERROR: EOF: not found: ^id = 58
+
+ERROR: EOF: not found: ^id = 59
+
+ERROR: EOF: not found: ^id = 60
+
+ERROR: EOF: not found: ^id = 61
+
+ERROR: EOF: not found: ^id = 62
+
+ERROR: EOF: not found: ^id = 63
+
+ERROR: EOF: not found: ^id = 64
+
+ERROR: EOF: not found: ^id = 65
+
+ERROR: EOF: not found: ^id = 66
+
+ERROR: EOF: not found: ^id = 67
+
+ERROR: EOF: not found: ^id = 68
+
+ERROR: EOF: not found: ^id = 69
+
+ERROR: EOF: not found: ^id = 70
+
+ERROR: EOF: not found: ^id = 71
+
+ERROR: EOF: not found: ^id = 72
+
+ERROR: EOF: not found: ^id = 73
+
+ERROR: EOF: not found: ^id = 74
+
+ERROR: EOF: not found: ^id = 75
+
+ERROR: EOF: not found: ^id = 76
+
+ERROR: EOF: not found: ^id = 77
+
+ERROR: EOF: not found: ^id = 78
+
+ERROR: EOF: not found: ^id = 79
+
+ERROR: EOF: not found: ^id = 80
+
+ERROR: EOF: not found: ^id = 81
+
+ERROR: EOF: not found: ^id = 82
+
+ERROR: EOF: not found: ^id = 83
+
+ERROR: EOF: not found: ^id = 84
+
+ERROR: EOF: not found: ^id = 85
+
+ERROR: EOF: not found: ^id = 86
+
+ERROR: EOF: not found: ^id = 87
+
+ERROR: EOF: not found: ^id = 88
+
+ERROR: EOF: not found: ^id = 89
+
+ERROR: EOF: not found: ^id = 90
+
+ERROR: EOF: not found: ^id = 91
+
+ERROR: EOF: not found: ^id = 92
+
+ERROR: EOF: not found: ^id = 93
+
+ERROR: EOF: not found: ^id = 94
+
+ERROR: EOF: not found: ^id = 95
+
+ERROR: EOF: not found: ^id = 96
+
+ERROR: EOF: not found: ^id = 97
+
+ERROR: EOF: not found: ^id = 98
+
+ERROR: EOF: not found: ^id = 99
+
+ERROR: EOF: not found: ^id = 100
+
+ERROR: EOF: not found: ^id = 101
+
+ERROR: EOF: not found: ^id = 102
+
+ERROR: EOF: not found: ^id = 103
+
+ERROR: EOF: not found: ^id = 104
+
+ERROR: EOF: not found: ^id = 105
+
+ERROR: EOF: not found: ^id = 106
+
+ERROR: EOF: not found: ^id = 107
+
+ERROR: EOF: not found: ^id = 108
+
+ERROR: EOF: not found: ^id = 109
+
+ERROR: EOF: not found: ^id = 110
+
+ERROR: EOF: not found: ^id = 111
+
+ERROR: EOF: not found: ^id = 112
+
+ERROR: EOF: not found: ^id = 113
+
+ERROR: EOF: not found: ^id = 114
+
+ERROR: EOF: not found: ^id = 115
+
+ERROR: EOF: not found: ^id = 116
+
+ERROR: EOF: not found: ^id = 117
+
+ERROR: EOF: not found: ^id = 118
+
+ERROR: EOF: not found: ^id = 119
+
+ERROR: EOF: not found: ^id = 120
+
+ERROR: EOF: not found: ^id = 121
+
+ERROR: EOF: not found: ^id = 122
+
+ERROR: EOF: not found: ^id = 123
+
+ERROR: EOF: not found: ^id = 124
+
+ERROR: EOF: not found: ^id = 125
+
+ERROR: EOF: not found: ^id = 126
+
+ERROR: EOF: not found: ^id = 127
+
+ERROR: EOF: not found: ['^mallinfo_check: likely memory leak detected \\(\\d+ bytes, \\d+ blocks\\)\r\n', '^mallinfo_check: memory use ok\r\n']
+ERROR: look for memory leaks returns -1
+ERROR: EOF: not found: ^wait test done
+
+ERROR: program was killed with signal = 6
+running test_wait_kill...
+ERROR: EOF: not found: ['^(\\w+): bad thread_kill expected (\\d+) got (\\d+)\r\n', '^its over\r\n']
+ERROR: look for child thread output returns -1
+ERROR: program was killed with signal = 11
+running test_wait_exited...
+ERROR: EOF: not found: ^wait_exited test done
+
+ERROR: EOF: not found: ['^wait_exited got expected child status\r\n', '^wait_exited got unexpected child status (\\d+)\r\n']
+ERROR: did not find expected test_wait_exited output
+ERROR: program was killed with signal = 11
+running test_wait_parent...
+ERROR: EOF: not found: ['^(\\d+): thread woken, parent exit -42\r\n', '^(\\d+): parent gone or waited for\r\n', '^wait_parent test done\r\n']
+Mark for wait test is 1 out of 14
+FAIL
+
+Running: /cad2/ece344f/tester/scripts/lab3-05-lock.py 
+lock test
+running 3 times
+    running trial 0
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^lock test done\r\n']
+ERROR: look returns -1
+ERROR: program was killed with signal = 11
+    running trial 1
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^lock test done\r\n']
+ERROR: look returns -1
+ERROR: program was killed with signal = 11
+    running trial 2
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^lock test done\r\n']
+ERROR: look returns -1
+ERROR: program was killed with signal = 11
+Mark for lock test is 7 out of 14
+FAIL
+
+Running: /cad2/ece344f/tester/scripts/lab3-06-cv-signal.py 
+cv signal test
+running 3 times
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^cv signal test done\r\n']
+ERROR: program was killed with signal = 11
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^cv signal test done\r\n']
+ERROR: program was killed with signal = 11
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^cv signal test done\r\n']
+ERROR: program was killed with signal = 11
+Mark for cv signal test is 10 out of 14
+FAIL
+
+Running: /cad2/ece344f/tester/scripts/lab3-07-cv-broadcast.py 
+cv broadcast test
+running 3 times
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^cv broadcast test done\r\n']
+ERROR: program was killed with signal = 11
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^cv broadcast test done\r\n']
+ERROR: program was killed with signal = 11
+ERROR: EOF: not found: ['^(\\d+): thread\\s+(\\d+) passes\r\n', '^cv broadcast test done\r\n']
+ERROR: program was killed with signal = 11
+Mark for cv broadcast test is 10 out of 12
+FAIL
+
+You have received 64 marks out of a total of 90 marks.

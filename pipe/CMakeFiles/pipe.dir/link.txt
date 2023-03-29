@@ -1,0 +1,1 @@
+/usr/bin/gcc -g3 -gdwarf-2 CMakeFiles/pipe.dir/pipe.c.o -o pipe 

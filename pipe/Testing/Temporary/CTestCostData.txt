@@ -1,0 +1,26 @@
+EmptyTest 21 0.00133393
+ExitFalseTest 16 0.00136001
+ExitInvalidTest 16 0.00130935
+ExitFalseInvalidTest 16 0.00156596
+ExitInvalidFalseTest 16 0.00173588
+ChildrenOneTest 17 0.00136209
+ChildrenTwoTest 16 0.0014423
+ChildrenThreeTest 16 0.00154099
+ChildrenFourTest 16 0.00157615
+ChildrenFiveTest 16 0.00146893
+ChildrenSixTest 16 0.00152872
+ChildrenSevenTest 16 0.0014805
+ChildrenEightTest 16 0.001582
+ChildrenNineTest 15 0.00183915
+ChildrenTenTest 15 0.00158899
+PipeOneTest 8 0.00302344
+PipeTwoTest 8 0.00311266
+PipeThreeTest 8 0.00308753
+PipeFourTest 8 0.00393471
+PipeFiveTest 8 0.00450775
+PipeSixTest 8 0.00341461
+PipeSevenTest 8 0.00401731
+PipeEightTest 8 0.0031526
+PipeNineTest 8 0.00318479
+StdinTest 8 0.0176181
+---

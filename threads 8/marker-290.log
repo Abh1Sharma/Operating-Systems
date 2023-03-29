@@ -1,0 +1,43 @@
+Failed to add the host to the list of known hosts (/homes/s/shar1784/.ssh/known_hosts.d/ug250.eecg.utoronto.ca).
+﻿: Command not found.
+/cad2/ece344f/tester/bin/ece344-tester: line 133: [: missing `]'
+Running: /cad2/ece344f/tester/scripts/lab2-01-ucontext.py 
+ucontext test
+Traceback (most recent call last):
+  File "/cad2/ece344f/tester/scripts/lab2-01-ucontext.py", line 120, in <module>
+    main()
+  File "/cad2/ece344f/tester/scripts/lab2-01-ucontext.py", line 8, in main
+    test.start_program('./show_ucontext')
+  File "/nfs/ug/cad/cad2/ece344f/tester/scripts/tester.py", line 23, in start_program
+    self.program = pexpect.spawnu(path, [], timeout,
+  File "/usr/lib/python3/dist-packages/pexpect/pty_spawn.py", line 860, in spawnu
+    return spawn(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pexpect/pty_spawn.py", line 205, in __init__
+    self._spawn(command, args, preexec_fn, dimensions)
+  File "/usr/lib/python3/dist-packages/pexpect/pty_spawn.py", line 276, in _spawn
+    raise ExceptionPexpect('The command was not found or was not ' +
+pexpect.exceptions.ExceptionPexpect: The command was not found or was not executable: ./show_ucontext.
+Mark for ucontext test is 0 out of 10
+FAIL
+
+Running: /cad2/ece344f/tester/scripts/lab2-02-basic.py 
+basic test
+Traceback (most recent call last):
+  File "/cad2/ece344f/tester/scripts/lab2-02-basic.py", line 73, in <module>
+    main()
+  File "/cad2/ece344f/tester/scripts/lab2-02-basic.py", line 10, in main
+    test.start_program('./test_basic', 5)
+  File "/nfs/ug/cad/cad2/ece344f/tester/scripts/tester.py", line 23, in start_program
+    self.program = pexpect.spawnu(path, [], timeout,
+  File "/usr/lib/python3/dist-packages/pexpect/pty_spawn.py", line 860, in spawnu
+    return spawn(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pexpect/pty_spawn.py", line 205, in __init__
+    self._spawn(command, args, preexec_fn, dimensions)
+  File "/usr/lib/python3/dist-packages/pexpect/pty_spawn.py", line 276, in _spawn
+    raise ExceptionPexpect('The command was not found or was not ' +
+pexpect.exceptions.ExceptionPexpect: The command was not found or was not executable: ./test_basic.
+Mark for basic test is 0 out of 44
+FAIL
+
+You have received 0 marks out of a total of 54 marks.
+tester.log not found

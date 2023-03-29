@@ -1,0 +1,11 @@
+Scanning dependencies of target pipe
+[ 50%] Building C object CMakeFiles/pipe.dir/pipe.c.o
+/nfs/ug/homes-0/s/shar1784/ece344/pipe/pipe.c: In function 'main':
+/nfs/ug/homes-0/s/shar1784/ece344/pipe/pipe.c:8:14: warning: unused parameter 'argc' [-Wunused-parameter]
+    8 | int main(int argc, char *argv[]) {
+      |          ~~~~^~~~
+/nfs/ug/homes-0/s/shar1784/ece344/pipe/pipe.c:8:26: warning: unused parameter 'argv' [-Wunused-parameter]
+    8 | int main(int argc, char *argv[]) {
+      |                    ~~~~~~^~~~~~
+[100%] Linking C executable pipe
+[100%] Built target pipe
